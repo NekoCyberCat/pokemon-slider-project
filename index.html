@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Card Slider</title>
+
+    <link rel="shortcut icon" href="src/images/pokebola.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/images/pokebola.png" alt="Pokeball" class="pokebola">
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-arrow btn-back" id="btn-back">
+            <img src="src/images/seta.png" alt="arrow-back">
+        </button>
+
+        <ul class="pokemon-list">
+            <li class="card selected fundo-1">
+                <div class="info">
+                    <h2 class="name">Pikachu</h2>
+                    <p class="hp">HP 300</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/pikachu.png" alt="Pikachu" class="pokemon-image">
+                </div>
+
+                <div class="description">
+                    <h3 class="titulo">Description</h3>
+                    <p class="text">Pikachu é um tipo de Pokémon elétrico: os bolsos em suas bochechas, identificado por discos vermelhos que decoram, são capazes de gerar choques elétricos de intensidade variável, chegando até o nível de poder de um raio. Eles também o usam para se defender.</p>
+                </div>
+            </li>
+
+            <li class="card fundo-2">
+                <div class="info">
+                    <h2 class="name">Charizard</h2>
+                    <p class="hp">HP 800</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/charizard.png" alt="Charizard" class="pokemon-image">
+                </div>
+
+                <div class="description">
+                    <h3 class="titulo">Description</h3>
+                    <p class="text">Charizard é um Pokémon dracônico e bípede . É principalmente laranja com uma parte inferior creme do peito até a ponta da cauda. Tem um pescoço longo, pequenos olhos azuis, narinas ligeiramente levantadas e duas estruturas semelhantes a chifres saindo da parte de trás de sua cabeça retangular.</p>
+                </div>
+            </li>
+
+            <li class="card fundo-3">
+                <div class="info">
+                    <h2 class="name">Mewtwo</h2>
+                    <p class="hp">HP 2300</p>
+                </div>
+
+                <div class="container-image">
+                    <img src="src/images/mewtwo.png" alt="Mewtwo" class="pokemon-image">
+                </div>
+
+                <div class="description">
+                    <h3 class="titulo">Description</h3>
+                    <p class="text">Mewtwo é um Pokémon que foi criado por manipulação genética. No entanto, mesmo que o poder científico dos humanos tenha criado o corpo deste Pokémon, eles não conseguiram dotar Mewtwo com um coração compassivo. Esse Pokémon é uma criatura com uma postura humanóide, mas tem algumas características felinas. O corpo de Mewtwo é cinzento-roxo e uma cauda longa totalmente da cor roxa. Mewtwo tem três dígitos circulares em cada apêndice.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-arrow" id="btn-forward">
+            <img src="src/images/seta.png" alt="arrow-forward">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
